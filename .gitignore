@@ -1,0 +1,16 @@
+# Node.js dependencies
+/node_modules
+
+# Build artifacts
+/build
+/dist
+
+# Environment files
+.env
+
+# IDE files
+/.idea
+/.vscode
+
+# Miscellaneous
+.DS_Store
