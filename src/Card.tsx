@@ -8,7 +8,7 @@ interface CardProps {
   titleStyle?: string;
   footerStyle?: string;
 }
-
+// @ts-ignore
 const Card: React.FC<CardProps> = ({ 
   subtitle, 
   title, 

@@ -25,6 +25,8 @@ const propulsionZone = new THREE.Object3D(); // Example propulsionZone object, y
 
 const propulsionSimulator = new PropulsionSimulator(scene, propulsionZone, renderer, camera); // Create an instance of PropulsionSimulator
 
+propulsionSimulator.start();
+
 createRoot(document.getElementById('app')).render(
     <App 
         onStart={() => propulsionSimulator.start()} 

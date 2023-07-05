@@ -1,10 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@200;400&display=swap" rel="stylesheet">
     <style>
+        @font-face {
+            font-family: 'IBM-Plex-Mono';
+            font-weight: 200;
+            /* Font weight for Extra Light */
+            src: url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@200;400&display=swap') format('truetype');
+        }
+
+        @font-face {
+            font-family: 'IBM-Plex-Mono';
+            font-weight: 400;
+            /* Font weight for Regular */
+            src: url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@200;400&display=swap') format('truetype');
+        }
+
+
+        .font-plex-mono {
+            font-family: 'IBM-Plex-Mono', sans-serif;
+        }
+
+        .font-extralight {
+            font-family: 'IBM-Plex-Mono', sans-serif;
+            font-weight: 200;
+        }
+
         body {
             margin: 0;
             background-color: black;
@@ -15,10 +43,16 @@
             color: #ededed;
             z-index: 1;
         }
+
+       
     </style>
 </head>
+
 <body>
     <div id="app"></div>
+
     <script type="module" src="/src/main.jsx"></script>
+
 </body>
+
 </html>
